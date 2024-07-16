@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>나를 소개합니다</title>
+        <meta charset="utf-8">
+        <style>
+            h1 {text-align: center; border-width:5px;border-color:red;border-style:solid;
+            padding:20px;margin:20px;}
+            a {color:blue;text-decoration: wavy;}
+            .Korea{color:brown;text-decoration: none;}
+            div {border:5px solid gray;display:grid;grid-template-columns: 100px 1fr;}
+            #gri {border:5px solid pink;}
+            @media(max-width:500px){
+                #gri{display:none;}
+            }
+            </style>
+            
+    </head>
+<body>
+<h1><strong>LeeDongJun</strong></h1><br>
+<img src="leezz.jpeg" width="300">
+    <p>
+    My name is LeeDongJun
+    </p> 
+    <p>
+    나는 <a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&pkid=1&os=99070&qvt=0&query=%EC%9D%B4%EB%8F%99%EC%A4%80"class="Korea" target="_blank">이동준</a>입니다.
+    </p>
+    <ul>
+    <li>handsome</li>
+    <li>cool</li>
+    <li>Korean</li>
+    <li><a href="https://tv.naver.com/v/52298821" title="이동준" target="_blank">me</a></li>
+    </ul>
+    <div id="gri">
+    <div>fjwekflkejker</div>
+    <div>navigation</div>
+    </div> 
+    <input type="button" value="day" onclick="
+    if(document.querySelector('body').dataset.mode==='night'){document.querySelector('body').style.backgroundColor='white'; document.querySelector('body').style.color='black';
+
+    document.querySelector('body').dataset.mode='day';this.value='day';}
+    else{document.querySelector('body').style.backgroundColor='black'; document.querySelector('body').style.color='white';
+
+document.querySelector('body').dataset.mode='night';this.value='night';}
+">
+
+    
+    
+
+</body>
+</html>
